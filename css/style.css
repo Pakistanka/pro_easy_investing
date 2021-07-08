@@ -401,7 +401,7 @@ a {
   transition: background 0.4s ease-in-out, height 0.2s linear;
   display: inline-block;
   cursor: pointer;
-  color: #2EBEB9;
+  color: #337ab7;
   width: 20%;
   height: 3em;
   border-top-left-radius: 3px;
@@ -409,12 +409,13 @@ a {
   background: #FCFCFC;
   text-align: center;
   line-height: 3em; 
+  font-size: 20px;
 }
 .tabs label:last-of-type {
   border-bottom: none; 
 }
 .tabs label:hover {
-  background: #259692;
+  background: #23527c;
   color:#ffffff;
 }
 @media screen and (max-width: 1600px) {
@@ -441,7 +442,7 @@ a {
 }
 
 #tab1:checked + label, #tab2:checked + label, #tab3:checked + label, #tab4:checked + label, #tab5:checked + label {
-  background: #2EBEB9;
+  background: #337ab7;
   color: #FFFFFF; }
 
 .tab-content {
@@ -452,7 +453,7 @@ a {
 
 .tab-content-wrapper{
   background: #FCFCFC;
-  border-top: #2EBEB9 5px solid;
+  border-top: #337ab7 5px solid;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -476,7 +477,7 @@ a {
    Newsletter section              
 -----------------------------------------*/
 #newsletter {
-    background: url('../images/newsletter-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/blog-thumb.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -542,6 +543,14 @@ a {
   padding: 60px;
   -wekbit-transition: all 1000ms linear;
   transition: all 1000ms linear;
+}
+
+.blog-thumb h3 a {
+  color: #fff;
+}
+
+.blog-thumb h3 a:hover {
+  color: #337ab7;
 }
 
 #blog .blog-thumb:hover {
@@ -755,11 +764,15 @@ a {
     Price section              
 -----------------------------------------*/
 #price {
-  background: url('../images/price-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg-slider-img1.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+}
+
+#price p {
+  color: #fff;
 }
 
 #price .pricing__item {
