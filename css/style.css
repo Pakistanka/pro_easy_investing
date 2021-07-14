@@ -945,6 +945,11 @@ footer {
   padding-bottom: 8rem;
 }
 
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
 footer .col-md-5 {
   position: relative;
   left: 100px;
